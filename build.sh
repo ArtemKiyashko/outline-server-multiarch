@@ -114,10 +114,10 @@ do
 done
 
 # Apply patches
-for FILE in ../patches/*.patch; do
-    [[ -e "${FILE}" ]] || continue;
-    git apply "${FILE}";
-done;
+# for FILE in ../patches/*.patch; do
+#     [[ -e "${FILE}" ]] || continue;
+#     git apply "${FILE}";
+# done;
 
 # Build docker-image
 export SB_IMAGE="${TAG}"
