@@ -123,7 +123,7 @@ done
 export SB_IMAGE="${TAG}"
 export NODE_IMAGE="node:16-alpine"
 
-npm run action shadowbox/docker/build
+npm run
 
 # Clean-up
 cd ..
